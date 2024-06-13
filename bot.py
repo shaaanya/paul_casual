@@ -104,7 +104,7 @@ def send_query_results(bot, update, query):
             f = open(path, "wb")
             f.write(item[0])
             f.close()
-            caption = f"{item[1]} \nРазмер: {item[2]}\nЦена: {item[3]}\nПо поводу покупки пишите - @super19p"
+            caption = f"{item[1]} \nРазмер: {item[2]}\nЦена: {item[3]}\nПо поводу покупки пишите - @CHANGE_NICKNAME"
             bot.send_photo(
                 chat_id=chat_id,
                 photo=open(path, "rb"),
