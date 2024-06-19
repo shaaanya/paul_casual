@@ -212,6 +212,6 @@ def main():
     updater.idle()
 
 
-# run shit
+
 if __name__ == "__main__":
     main()
